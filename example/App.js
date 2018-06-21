@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {
+    AppRegistry,
     View,
     TouchableOpacity,
     Text,
     LayoutAnimation,
 } from 'react-native';
-import TextField from '../module/TextField'
+
+import TextField from 'react-native-animated-textfield';
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -72,3 +74,5 @@ export default class App extends Component<Props> {
         );
     }
 }
+
+AppRegistry.registerComponent('App', () => App);

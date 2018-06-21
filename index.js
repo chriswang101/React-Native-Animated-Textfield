@@ -1,3 +1,3 @@
-import TextField from './module/textfield'
+import TextField from 'react-native-animated-textfield'
 
 export default TextField
